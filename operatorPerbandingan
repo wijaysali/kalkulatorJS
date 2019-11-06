@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <title>Operator Perbandingan</title>
+</head>
+
+<body>
+
+    <script>
+        let aku = 20;
+        let kamu = 19;
+
+        // sama dengan
+        let hasil = aku == kamu;
+        document.write(`${aku} == ${kamu} = ${hasil}<br/>`);
+        
+        // lebih besar
+        let hasil = aku > kamu;
+        document.write(`${aku} > ${kamu} = ${hasil}<br/>`);
+        
+        // lebih besar samadengan
+        let hasil = aku >= kamu;
+        document.write(`${aku} >= ${kamu} = ${hasil}<br/>`);
+        
+        // lebih kecil
+        let hasil = aku < kamu;
+        document.write(`${aku} < ${kamu} = ${hasil}<br/>`);
+        
+        // lebih kecil samadengan
+        let hasil = aku <= kamu;
+        document.write(`${aku} <= ${kamu} = ${hasil}<br/>`);
+        
+        // tidak samadengan
+        let hasil = aku != kamu;
+        document.write(`${aku} != ${kamu} = ${hasil}<br/>`);
+    </script>
+</body>
+
+</html>
